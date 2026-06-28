@@ -4,7 +4,7 @@
 
 std::string depe() {
     std::string result = "... called E ";
-    result += depf();
+    result += depf(2);
     return result;
 }
 
